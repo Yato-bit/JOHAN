@@ -8,5 +8,5 @@ let handler = async (m, { conn }) => {
     await conn.sendMessage(m.chat, sticker, MessageType.sticker, { quoted: m })
 }
 
-handler.command = /^(يوهان)$/i
+handler.command = /^(ياتو)$/i
 module.exports = handler
